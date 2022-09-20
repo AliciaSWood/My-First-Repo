@@ -1,0 +1,32 @@
+* {
+    margin: 2px;
+}
+
+nav {
+margin-bottom: 20px;
+padding: 0px;
+}
+
+nav > ul {
+list-style-type:none;
+border: 3px solid black;
+height: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav > ul > li > a {
+
+color:#222;
+text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav > ul > li > a:hover {
+color: green;
+text-decoration: underline;
+}
+article > div > ol {
+    padding: 10px;
+}
